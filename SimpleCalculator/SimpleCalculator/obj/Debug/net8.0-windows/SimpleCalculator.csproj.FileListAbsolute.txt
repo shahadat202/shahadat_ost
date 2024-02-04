@@ -1,0 +1,17 @@
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.exe
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.deps.json
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.runtimeconfig.json
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.dll
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\bin\Debug\net8.0-windows\SimpleCalculator.pdb
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.Form1.resources
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.csproj.GenerateResource.cache
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.AssemblyInfoInputs.cache
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.AssemblyInfo.cs
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.csproj.CoreCompileInputs.cache
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.sourcelink.json
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.dll
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\refint\SimpleCalculator.dll
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.pdb
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\SimpleCalculator.genruntimeconfig.cache
+D:\All_Programming\Ostad\shahadat_ostad\SimpleCalculator\SimpleCalculator\obj\Debug\net8.0-windows\ref\SimpleCalculator.dll
