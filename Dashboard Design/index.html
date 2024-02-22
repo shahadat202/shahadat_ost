@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <!-- ---Menu section--- -->
+    <section id="menu">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+            <h2>Dynamic</h2>
+        </div>
+        <div class="items">
+            <li><i class="fa-solid fa-chart-pie"></i><a href="#">Dashboard</a></li>
+            <li><i class="fa-brands fa-uikit"></i><a href="#">UI Elements</a></li>
+            <li><i class="fa-brands fa-microsoft"></i><a href="#">Tabels</a></li>
+            <li><i class="fa-solid fa-edit"></i><a href="#">Forms</a></li>
+            <li><i class="fa-brands fa-cc-visa"></i><a href="#">Cards</a></li>
+            <li><i class="fa-solid fa-hamburger"></i><a href="#">Model</a></li>
+            <li><i class="fa-solid fa-chart-line"></i><a href="#">Blank</a></li>
+        </div>
+    </section>
+
+    <!-- ---Interface section--- -->
+    <section id="interface">
+        <div class="navigation">
+            <div class="n1">
+                <div>
+                    <i id="menu-btn" class="fas fa-bars"></i>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass" id="searchIcon" ></i>
+                    <input type="text" id="searchInput" placeholder="Search..." onkeyup="searchFunction()">
+                </div>
+            </div>
+            <!-- Notification ----- -->
+            <div class="profile" id="notification-icon">
+                <i class="far fa-bell" id="bellIcon"></i>
+                <img src="images/profile1.jpg" alt="">
+            </div>
+        </div>
+        <h3 class="i-name">Dashboard</h3>
+        
+        <!-- Interface boxes -->
+        <div class="values">
+            <div class="val-box">
+                <i class="fas fa-users"></i>
+                <div>
+                    <h3>8,267</h3>
+                    <span>New Users</span>
+                </div>
+            </div>
+            <div class="val-box">
+                <i class="fas fa-shopping-cart"></i>
+                <div>
+                    <h3>2000,521</h3>
+                    <span>Total Order</span>
+                </div>
+            </div>
+            <div class="val-box">
+                <i class="fa-solid fa-gift"></i>
+                <div>
+                    <h3>215,542</h3>
+                    <span>Products Sell</span>
+                </div>
+            </div>
+            <div class="val-box">
+                <i class="fas fa-dollar-sign"></i>
+                <div>
+                    <h3>$677.89</h3>
+                    <span>This Month</span>
+                </div>
+            </div>
+        </div>
+         
+        <!-- ---Employee information table--- -->
+        <dir class="board">
+            <table width="100%" class="table table-striped">
+                <thead>
+                    <tr>
+                        <td>NAME</td>
+                        <td>TITLE</td>
+                        <td>STATUS</td>
+                        <td>ROLE</td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile1.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Shahadat Hossain</h5>
+                                <p>sharman.bd0@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>Software Engineer</h5>
+                            <p>Web Dev</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile2.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Rakib Hossain</h5>
+                                <p>rkib.@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>UI/UX Designer</h5>
+                            <p>Web Design</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile1.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Alamin Mir</h5>
+                                <p>alamin.@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>Software Engineer</h5>
+                            <p>Web Dev</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile2.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Shahadat Hossain</h5>
+                                <p>hossain.@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>Network Engineer</h5>
+                            <p>Networking</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile1.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Abdullah Al Mamun</h5>
+                                <p>abdullah.@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>Graphic Designer</h5>
+                            <p>Graphic Design</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile2.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Riaz Uddin </h5>
+                                <p>riaz.@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>Content Creator</h5>
+                            <p>Digital Content</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile1.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Joy Hossain</h5>
+                                <p>joy.@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>Textile Engineer</h5>
+                            <p>Textile</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile2.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Saleh Ahmed</h5>
+                                <p>saleh.@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>3D Animator</h5>
+                            <p>Digital Animation</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                    <tr>
+                        <td class="people">
+                            <img src="images/profile1.jpg" alt="">
+                            <div class="people-de">
+                                <h5>Anik Hossain</h5>
+                                <p>anik.@gmail.com</p>
+                            </div>
+                        </td>
+
+                        <td class="peope-des">
+                            <h5>SEO Expert</h5>
+                            <p>SEO Marketing</p>
+                        </td>
+
+                        <td class="active"><p>Active</p></td>
+
+                        <td class="role">
+                            <p>Owner</p>
+                        </td>
+
+                        <td class="edit"><a href="#">Edit</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </dir>
+
+        
+    </section>
+
+
+    <script src="App.js"></script>
+</body>
+</html>
